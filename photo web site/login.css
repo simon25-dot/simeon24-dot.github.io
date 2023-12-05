@@ -1,0 +1,40 @@
+body {
+          font-family: 'Roboto', sans-serif;
+          background-color: #e3f2fd;
+      }
+      
+      .jumbotron {
+          background-color: #ffffff;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      
+      form {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      label {
+          margin-bottom: 0.5rem;
+      }
+      
+      input {
+          margin-bottom: 1.5rem;
+          padding: 0.5rem;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+      }
+      
+      button {
+          cursor: pointer;
+          background-color: #4caf50;
+          color: #ffffff;
+          padding: 0.5rem 1rem;
+          border: none;
+          border-radius: 5px;
+          font-size: 1rem;
+      }
+      
+      button:hover {
+          background-color: #45a049;
+      }
